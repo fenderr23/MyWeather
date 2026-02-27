@@ -176,20 +176,11 @@ body.theme-night {
   margin: 0 0 0.2rem;
   display: inline-flex;
   align-items: center;
-  gap: 0.3rem;
   letter-spacing: 0.03em;
   font-family: var(--font-accent);
   font-size: 0.78rem;
   font-weight: 700;
   color: #7d5ba4;
-}
-
-.eyebrow-icon {
-  width: 21px;
-  height: 21px;
-  flex: 0 0 auto;
-  border-radius: 2px;
-  object-fit: cover;
 }
 
 .lang-switch {
@@ -232,6 +223,20 @@ h1 {
   line-height: 1.25;
   color: #6a4a8c;
   text-shadow: 0 4px 12px rgba(194, 141, 255, 0.35);
+}
+
+.brand-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.brand-icon {
+  width: 43px;
+  height: 43px;
+  flex: 0 0 auto;
+  border-radius: 6px;
+  object-fit: cover;
 }
 
 .subtitle {
@@ -601,6 +606,11 @@ body.theme-night .status-text {
     line-height: 1.22;
   }
 
+  .brand-icon {
+    width: 28px;
+    height: 28px;
+  }
+
   .subtitle {
     margin-top: 0.55rem;
     font-size: 0.98rem;
@@ -709,6 +719,11 @@ body.theme-night .status-text {
 
   h2 {
     margin-top: 0.2rem;
+  }
+
+  .brand-icon {
+    width: 24px;
+    height: 24px;
   }
 
   .forecast-grid {
